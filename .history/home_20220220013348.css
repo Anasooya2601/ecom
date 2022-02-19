@@ -1,0 +1,25 @@
+
+
+:root{
+    --pink-4:#f472b6;
+    --pink-6:#c026d3;
+    --yellow-1:#fef9c3;
+}
+
+*
+
+.search::placeholder{
+    color: white;
+}
+
+.navbar{
+    background: var(--pink-4);
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 2rem;
+    align-items: center;
+}
+.heading{
+    height: 3.5rem;
+}
