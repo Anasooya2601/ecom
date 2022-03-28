@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --violet--600:#6d28d9;
+    --fuchsia--900:#701a75;
+--pink-500:#ec4899;
+--pink-300:#f9a8d4
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background-color: white;
+padding: 0.2rem 2rem ;
+box-shadow: rgb(149 157 165 / 20%) Opx 2px 10px;
+top: 0;
+left: 0;
+right: 0;
+position: sticky;
+background-color: var(--pink-300);
+
+
+}
+header{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10%;
+    font-family: 'Open Sans', sans-serif;
+    height: 6rem;
+ 
+}
+li{
+    float: left;
+    position: sticky;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0rem 2.5rem;
+}
+
+.nav-links li a{
+    transition:all 0.3s ease 0s;
+}
+.nav-links li a :hover{
+   color: blue;
+}
+.btn-main{
+    align-items: centers;
+    width: 6.8rem;
+    color: white;
+    background-color: var(--violet--600);
+    height: 2.8rem;
+    border:none;
+    border-radius: 0.2rem;
+    font-size: 1.6rem;
+ 
+}
+.main-btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.main-header{
+    justify-content: space-between;
+}
